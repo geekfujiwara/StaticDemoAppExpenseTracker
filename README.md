@@ -29,12 +29,6 @@ npm run build
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 公開 URL
-
-アプリは次の URL で公開されています:
-
-[https://black-dune-0771b2610.2.azurestaticapps.net/](https://black-dune-0771b2610.2.azurestaticapps.net/)
-
 ## デプロイ (Azure Static Web Apps)
 
 このリポジトリは Azure Static Web Apps にデプロイできるように GitHub Actions ワークフローと `staticwebapp.config.json` を含んでいます。手順:
