@@ -50,14 +50,14 @@ export default function ExpenseForm({ onAdd }) {
     <form className={classes.form} onSubmit={submit}>
       <TextField label="取引内容" value={title} onChange={(_, v) => setTitle(v || '')} />
       <TextField label="店名" value={vendor} onChange={(_, v) => setVendor(v || '')} />
-      <TextField label="取引日時 (yyyy-MM-dd)" value={dateText} onChange={(_, v) => {
+      <TextField label="取引日時" value={dateText} onChange={(_, v) => {
         const txt = v || '';
         setDateText(txt);
       }} />
       <TextField label="合計金額" value={amount} onChange={(_, v) => setAmount(v || '')} />
       <TextField className={classes.full} label="メモ" multiline value={memo} onChange={(_, v) => setMemo(v || '')} />
       <div className={classes.full}>
-        <PrimaryButton text="申請追加" type="submit" />
+        <PrimaryButton text="登録する" type="submit" />
       </div>
     </form>
   );
