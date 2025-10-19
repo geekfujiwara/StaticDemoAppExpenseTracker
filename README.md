@@ -45,4 +45,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 注意:
 - ワークフローは `node 18` を使用して `npm run build` を実行し、`build` フォルダをデプロイします。もしビルドコマンドや出力フォルダが異なる場合はワークフローを編集してください。
-- GitHub と Azure のアカウントアクセスが必要です。トークンや資格情報は私は扱えません。私が行えるのはワークフローと構成ファイルの追加・修正までです。
+- GitHub と Azure のアカウントアクセスが必要です。
